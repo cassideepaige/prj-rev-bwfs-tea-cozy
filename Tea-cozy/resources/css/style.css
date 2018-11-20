@@ -1,0 +1,131 @@
+/* Universal Styles */
+body {
+  background-color: black;
+  font-family: helvetica;
+  color: seashell;
+  opacity: 0.9;
+  font-size: 22px;
+  z-index: 1;
+  /*text-align: center;*/
+}
+
+/* Header */
+.header {
+  display: inline-flex;
+  position: fixed;
+  top: 0px;
+  height: 69px;
+  flex-shrink: 1;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  z-index: 2;
+  background-color: black;
+}
+
+.logo {
+  height: 50px;
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+
+.nav {
+  position: relative;
+  left: 930px;
+  top: 20px;
+  display: inline-flex;
+  color: seashell;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.mission,
+.locations,
+.featured, {
+  padding-left: 10px;
+  text-decoration: underline;
+}
+
+/* Mission */
+.mission {
+   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+   margin: 0 auto;
+   height: 700px;
+   width: 1200px;
+   position: relative;
+   bottom: 10px;
+   text-align: center;
+}
+
+#statement {
+  background-color: black;
+  position: relative;
+  top: 300px;
+}
+
+/* Featured */
+.featured {
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+
+#line1,
+#line2 {
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: center;
+}
+
+#teas {
+  height: 200px;
+  width: 300px;
+  padding: 0 20px;
+}
+
+#tea-name{
+  position: relative;
+  bottom: 10px;
+}
+
+/* Locations */
+.locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto; /*centers the image*/
+  position: relative;
+  top: 200px;
+  text-align: center;
+  align-content: center;
+  padding: 20px 0px;
+}
+
+
+#locations {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  top: 15px;
+  justify-content: space-around;
+  margin: 0 40px;
+}
+
+/* Contact */
+
+.contact {
+  text-align: center;
+  position: relative;
+  top: 200px;
+  height: 200px;
+}
+
+/* Footer */
+.footer {
+  position: relative;
+  left: 20px;
+  top: 200px;
+}
